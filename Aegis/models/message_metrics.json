@@ -1,0 +1,51 @@
+{
+  "evaluation": "Stratified, source-group-disjoint held-out split",
+  "accuracy": 1.0,
+  "precision_phishing": 1.0,
+  "recall_phishing": 1.0,
+  "f1_phishing": 1.0,
+  "roc_auc": 1.0,
+  "average_precision": 1.0,
+  "train_rows": 24,
+  "test_rows": 8,
+  "source_group_overlap": 0,
+  "confusion_matrix": [
+    [
+      4,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report": {
+    "legitimate": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "phishing": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    }
+  },
+  "model": "RandomForest (safe message features + character TF-IDF n-grams)",
+  "feature_count": 1006
+}

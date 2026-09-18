@@ -1,0 +1,33 @@
+text,label,channel,source_group
+"Team meeting moved to 3 PM in Conference Room B.",0,email,internal_meeting
+"Reminder: our project review starts at 3 PM tomorrow.",0,email,internal_meeting
+"Your library book is due Friday. Renew it in the library app if needed.",0,sms,library_notice
+"The library will close at 6 PM today for maintenance.",0,sms,library_notice
+"Your grocery delivery is scheduled for 6 PM. Track it in the order app.",0,sms,delivery_update
+"Your order has shipped. View the receipt in your account order history.",0,email,delivery_update
+"The campus network maintenance window is Saturday from 1 to 3 AM.",0,email,school_it
+"Please restart the approved VPN client after the scheduled maintenance.",0,email,school_it
+"Your appointment is confirmed for Tuesday at 10:30 AM.",0,sms,appointment
+"To reschedule your appointment, call the number on your appointment card.",0,sms,appointment
+"Your monthly statement is available in the official mobile app.",0,email,bank_notice
+"Bank branch hours are changing next Monday. See the public notice in the app.",0,email,bank_notice
+"Happy birthday! Your family shared a photo album with you.",0,sms,family_message
+"Dinner is at 7 PM. Please let us know if you can make it.",0,sms,family_message
+"The payroll schedule for next month has been posted on the employee portal.",0,email,work_admin
+"Please submit your timesheet by Friday through the normal employee portal.",0,email,work_admin
+"URGENT: Your account is suspended. Verify your password now at http://198.51.100.25/verify.",1,sms,credential_campaign
+"Immediate action required. Confirm your login and OTP at http://198.51.100.25/account.",1,sms,credential_campaign
+"Dear customer, your payment failed. Update card details immediately at http://secure-payment.example/login.",1,email,payment_campaign
+"Your invoice is overdue. Pay today to avoid a penalty: http://secure-payment.example/pay.",1,email,payment_campaign
+"You won a free gift card! Claim your reward within 24 hours at http://bonus-gift.example/claim.",1,sms,prize_campaign
+"Congratulations winner! Verify your account to receive the bonus: http://bonus-gift.example/verify.",1,sms,prize_campaign
+"Microsoft security alert: your mailbox is compromised. Sign in now at http://mail-security.example/login.",1,email,brand_impersonation
+"Your Microsoft account will be deactivated today. Confirm credentials at http://mail-security.example/verify.",1,email,brand_impersonation
+"Dear account holder, enable macros in the attached invoice to release payment.",1,email,attachment_campaign
+"Open the attached .zip file immediately to avoid account suspension.",1,email,attachment_campaign
+"Your bank refund is waiting. Send your card details and OTP to receive it.",1,sms,refund_campaign
+"Refund pending. Reply with your bank account number to process payment today.",1,sms,refund_campaign
+"Netflix billing issue: update your payment information at http://netflix-billing.example/secure.",1,email,subscription_campaign
+"Your subscription is blocked. Log in now at http://netflix-billing.example/signin.",1,email,subscription_campaign
+"WhatsApp support: your account will be deleted. Verify immediately at http://chat-secure.example.",1,sms,social_campaign
+"Security warning: confirm your WhatsApp login code at http://chat-secure.example/otp.",1,sms,social_campaign

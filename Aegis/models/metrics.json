@@ -1,0 +1,53 @@
+{
+  "evaluation": "Stratified, domain-group-disjoint held-out split",
+  "accuracy": 1.0,
+  "precision_phishing": 1.0,
+  "recall_phishing": 1.0,
+  "f1_phishing": 1.0,
+  "roc_auc": 1.0,
+  "average_precision": 1.0,
+  "train_rows": 34,
+  "test_rows": 12,
+  "train_domains": 17,
+  "test_domains": 6,
+  "domain_overlap": 0,
+  "confusion_matrix": [
+    [
+      6,
+      0
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "classification_report": {
+    "legitimate": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "phishing": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 12.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 12.0
+    }
+  },
+  "model": "RandomForest (handcrafted URL features + character TF-IDF n-grams)",
+  "feature_count": 993
+}
