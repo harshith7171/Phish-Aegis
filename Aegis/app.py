@@ -99,8 +99,8 @@ def live_checks(urls: list[str]) -> None:
             ))
 
 
-st.set_page_config(page_title="PhishGuard AI", page_icon="🛡️", layout="wide")
-st.title("🛡️ PhishGuard AI")
+st.set_page_config(page_title="Phish Aegis", page_icon="🛡️", layout="wide")
+st.title("🛡️ Phish Aegis")
 st.caption("Layered phishing-risk screening for URLs, email, and SMS. The app never opens submitted links or attachments.")
 try:
     url_bundle = load_url_bundle()
